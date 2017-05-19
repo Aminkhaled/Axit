@@ -8,6 +8,10 @@ Navbar
 ===============
 */
 
+.navbar-inverse{
+  border-color: whitesmoke;
+}
+
 .navbar-right{
   margin-right: 60px;
 }
@@ -51,6 +55,7 @@ Navbar
   margin-top: 35px;
   color: #b0b1b2;
   text-align: left;
+  margin-left:-30px;
 }
 
 #header img{
@@ -130,13 +135,14 @@ social media
 }
 
 .social-title h2{
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 700;
   text-align: left;
+  margin-left: 30px;
 }
 
 .social-title p{
-  font-size: 16px;
+  font-size: 14px;
   color: #98999c;
   text-align: left;
 }
@@ -182,7 +188,8 @@ social media
 
 .nav-pills > li > a{
   padding:50px 25px ;
-  width: 40%;
+  width: 100px;
+  height: 20px;
   text-align: center;
   margin-top:-10px ;
   background-color: #333333;
@@ -214,19 +221,22 @@ social media
   background-color:#ff9b51 ;
 }
 
+
 .feature-text {
-  margin-left: -150px;
+  margin-left: -200px;
   margin-top: -22px;
 }
 
 .feature-text h2{
   margin-bottom: 35px;
   font-size: 25px;
+  margin-left: 5px;
   font-weight: 700;
 }
 
 .feature-text p{
   color: #86878b;
+  margin-left: -30px;
   margin-bottom: 30px;
 }
 
@@ -234,6 +244,7 @@ social media
   background-color: #ff9b51;
   color: #fff;
   border-color:#ff9b51;
+  margin-left: 10px;
 }
 
 .btn-feature-download:focus,
@@ -360,3 +371,55 @@ standard
   bottom: -15px;
   position: absolute;
 }
+
+
+/*
+================
+Awesome
+================
+*/
+
+.awesome{
+  padding-bottom: 75px;
+  padding-top: 60px;
+}
+
+.awesome-title{
+  margin-bottom: 70px;
+}
+
+.awesome-title h2{
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.awesome-title h2:after{
+  position: absolute;
+  left: 47%;
+  width: 50px;
+  height: 2px;
+  bottom: -25px;
+  background-color: #ff9b51;
+  content: "";
+}
+
+.awesome-title p{
+  font-size: 12px;
+  margin-right: 12px;
+}
+
+.awesome .icon{
+  border: 2px solid #ff9b51;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.awesome .icon i{
+margin-top: 10px;
+  color: #ff9b51;
+  font-size: 25px;
+}
+
